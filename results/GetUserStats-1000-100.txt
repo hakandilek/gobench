@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking gurbetinoylari.azurewebsites.net (be patient)
+
+
+Server Software:        Microsoft-IIS/8.0
+Server Hostname:        gurbetinoylari.azurewebsites.net
+Server Port:            80
+
+Document Path:          /api/v1/Tutanak/GetUserStats
+Document Length:        Variable
+
+Concurrency Level:      100
+Time taken for tests:   14.755 seconds
+Complete requests:      1000
+Failed requests:        0
+Keep-Alive requests:    1000
+Total transferred:      408000 bytes
+HTML transferred:       74000 bytes
+Requests per second:    67.77 [#/sec] (mean)
+Time per request:       1475.489 [ms] (mean)
+Time per request:       14.755 [ms] (mean, across all concurrent requests)
+Transfer rate:          27.00 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0   34 139.1      0    1065
+Processing:    61 1353 1965.7    592   11422
+Waiting:       61 1352 1965.7    592   11422
+Total:         61 1387 1997.4    598   11422
+
+Percentage of the requests served within a certain time (ms)
+  50%    598
+  66%    644
+  75%    717
+  80%   1228
+  90%   5117
+  95%   6729
+  98%   7424
+  99%   7680
+ 100%  11422 (longest request)
